@@ -1,0 +1,176 @@
+while True:
+	lst = list()
+	part = str(input('Введите часть экскурсии:\n1-Вступление\n2-Александр II')
+	with open(myfile, "r", encoding = "utf-8") as file:
+		for strings in file:
+			words = strings.rstrip().split()
+			for word in words:
+				lst.append(word)
+		command = int(input('Введите уровень сложности (0-8): '))
+		print('Количество слов:', len(lst))
+		minutes = len(lst) / 1.5 // 60
+		print('Примерное время:', minutes, 'мин.')
+		print('-' * 30)
+		if command == 0:
+			print(' '.join(lst))
+		if command == 1:
+			a = 0
+			while a < len(lst) - 8:
+				a = a + 8
+				lst[a] = "____"
+			print(' '.join(lst))
+		if command == 2:
+			a = 0
+			while a < len(lst) - 8:
+				a = a + 8
+				lst[a] = "____"
+			b = 0
+			while b < len(lst) - 7:
+				b = b + 7
+				lst[b] = "____"
+			print(' '.join(lst))
+		if command == 3:
+			a = 0
+			while a < len(lst) - 8:
+				a = a + 8
+				lst[a] = "____"
+			b = 0
+			while b < len(lst) - 7:
+				b = b + 7
+				lst[b] = "____"
+			c = 0
+			while c < len(lst) - 6:
+				c = c + 6
+				lst[c] = "____"
+			print(' '.join(lst))
+		if command == 4:
+			a = 0
+			while a < len(lst) - 8:
+				a = a + 8
+				lst[a] = "____"
+			b = 0
+			while b < len(lst) - 7:
+				b = b + 7
+				lst[b] = "____"
+			c = 0
+			while c < len(lst) - 6:
+				c = c + 6
+				lst[c] = "____"
+			d = 0
+			while d < len(lst) - 5:
+				d = d + 5
+				lst[d] = "____"
+			print(' '.join(lst))
+		if command == 5:
+			a = 0
+			while a < len(lst) - 8:
+				a = a + 8
+				lst[a] = "____"
+			b = 0
+			while b < len(lst) - 7:
+				b = b + 7
+				lst[b] = "____"
+			c = 0
+			while c < len(lst) - 6:
+				c = c + 6
+				lst[c] = "____"
+			d = 0
+			while d < len(lst) - 5:
+				d = d + 5
+				lst[d] = "____"
+			e = 0
+			while e < len(lst) - 4:
+				e = e + 4
+				lst[e] = "____"
+			print(' '.join(lst))
+		if command == 6:
+			a = 0
+			while a < len(lst) - 8:
+				a = a + 8
+				lst[a] = "____"
+			b = 0
+			while b < len(lst) - 7:
+				b = b + 7
+				lst[b] = "____"
+			c = 0
+			while c < len(lst) - 6:
+				c = c + 6
+				lst[c] = "____"
+			d = 0
+			while d < len(lst) - 5:
+				d = d + 5
+				lst[d] = "____"
+			e = 0
+			while e < len(lst) - 4:
+				e = e + 4
+				lst[e] = "____"
+			f = 0
+			while f < len(lst) - 3:
+				f = f + 3
+				lst[f] = "____"
+			print(' '.join(lst))
+		if command == 7:
+			a = 0
+			while a < len(lst) - 8:
+				a = a + 8
+				lst[a] = "____"
+			b = 0
+			while b < len(lst) - 7:
+				b = b + 7
+				lst[b] = "____"
+			c = 0
+			while c < len(lst) - 6:
+				c = c + 6
+				lst[c] = "____"
+			d = 0
+			while d < len(lst) - 5:
+				d = d + 5
+				lst[d] = "____"
+			e = 0
+			while e < len(lst) - 4:
+				e = e + 4
+				lst[e] = "____"
+			f = 0
+			while f < len(lst) - 3:
+				f = f + 3
+				lst[f] = "____"
+			g = 0
+			while g < len(lst) - 2:
+				g = g + 2
+				lst[g] = "____"
+			print(' '.join(lst))
+		if command == 8:
+			a = 0
+			while a < len(lst) - 8:
+				a = a + 8
+				lst[a] = "____"
+			b = 0
+			while b < len(lst) - 7:
+				b = b + 7
+				lst[b] = "____"
+			c = 0
+			while c < len(lst) - 6:
+				c = c + 6
+				lst[c] = "____"
+			d = 0
+			while d < len(lst) - 5:
+				d = d + 5
+				lst[d] = "____"
+			e = 0
+			while e < len(lst) - 4:
+				e = e + 4
+				lst[e] = "____"
+			f = 0
+			while f < len(lst) - 3:
+				f = f + 3
+				lst[f] = "____"
+			g = 0
+			while g < len(lst) - 2:
+				g = g + 2
+				lst[g] = "____"
+			h = 0
+			while h < len(lst) - 1:
+				h = h + 1
+				lst[h] = "____"
+			print(' '.join(lst))
+		print('-' * 30)
